@@ -35,5 +35,5 @@ Tokens: 3
 - Download or clone the project
 - Open index.html in any browser
 
-## Author
-Created by Samriddhi
+## Authorr
+
