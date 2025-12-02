@@ -34,6 +34,3 @@ Tokens: 3
 ## Run Locally
 - Download or clone the project
 - Open index.html in any browser
-
-## Authorr
-
