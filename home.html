@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="heading">TOKENIZE</div>
+    <div class="info">Designed for prompt engineers and AI enthusiasts — understand and control your token usage with ease.</div>
+    <div class ="textarea">
+        <div class="wrapper">
+        <textarea id="prompt" rows="10" column="12" placeholder="write your prompt here....."></textarea>
+        <div class="buttons">
+        <button onclick="counttoken()">Count</button>
+        <button onclick="cleartext()">Clear</button>
+        </div>
+        </div>
+    </div>
+    
+    <div class="output">
+        <h3>Total Characters &nbsp;<span id="CharNum">0</span></h3>
+        <h3>Total Tokens &nbsp;<span id="tokenNum">0</span></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
